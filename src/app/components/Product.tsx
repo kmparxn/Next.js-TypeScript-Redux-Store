@@ -46,7 +46,7 @@ function Product({ id, title, price, description, category, image, rating}: Prod
           .map((_, i) => (
             <StarIcon className="h-5 text-yellow-500" key={i} />
           ))}
-      </div>b
+      </div>
 
       <p className="text-xs my-2 line-clamp-2">{description}</p>
 
